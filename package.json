@@ -1,0 +1,24 @@
+{
+  "name": "resturant",
+  "version": "1.0.0",
+  "description": "A Starter Template for Quick Start",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "emranweb",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emranweb/resturant"
+  },
+  "bugs": {
+    "url": "https://github.com/emranweb/resturant/issues"
+  },
+  "homepage": "https://github.com/emranweb/resturant"
+}
