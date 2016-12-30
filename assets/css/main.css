@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One");
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+header {
+  background-image: url("../image/header-bg.jpg");
+  background-size: cover; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f5f6f6; }
+
+.navbar-light .navbar-toggler {
+  border: none;
+  outline: none; }
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #fff; }
+
+.nav-link {
+  font-family: "Gentium Book Basic", serif;
+  font-size: 18px;
+  color: #f5f6f6;
+  font-weight: bold;
+  line-height: 1.2; }
+  .nav-link i {
+    color: #cc9900;
+    padding: 0 5px; }
+  .nav-link:hover {
+    color: #cc9900; }
+
+.navbar {
+  padding: 0; }
+
+.nav-item {
+  transition: 0.2s ease;
+  padding-top: 20px; }
+  @media (min-width: 992px) {
+    .nav-item {
+      border-top: 1px solid rgba(255, 255, 255, 0); }
+      .nav-item:hover {
+        border-top: 2px solid white; } }
+  .nav-item:last-child {
+    border: none; }
+
+.jumbotron {
+  background: none;
+  color: #fff;
+  text-align: center; }
+  .jumbotron h1 {
+    font-family: "Yeseva One", cursive;
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.922);
+    line-height: 1.2; }
+    @media (min-width: 992px) {
+      .jumbotron h1 {
+        font-size: 5em; } }
+  .jumbotron img {
+    margin: 3rem 0; }
+  .jumbotron .btn-primary:first-child {
+    background: none;
+    border-radius: 0px;
+    border: none;
+    width: 9rem;
+    outline: none;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.4);
+    margin-right: 10px; }
+  .jumbotron .btn-primary:last-child {
+    background: none;
+    border-radius: 0px;
+    border: none;
+    width: 9rem;
+    outline: none;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.4); }
+
+* {
+  margin: 0px;
+  padding: 0px; }

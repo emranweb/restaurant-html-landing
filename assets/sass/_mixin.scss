@@ -1,0 +1,9 @@
+@mixin bt {
+  background: none;
+  border-radius: 0px;
+  border:none;
+  width: 9rem;
+  outline: none;
+  font-family: $text;
+  text-transform: uppercase;
+}
