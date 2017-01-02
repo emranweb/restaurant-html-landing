@@ -1,8 +1,10 @@
 @import "variable";
 @import "mixin";
 @import "header";
+@import "about";
+@import "element";
 
-*{
-  margin: 0px;
-  padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
 }

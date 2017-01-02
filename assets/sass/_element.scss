@@ -1,0 +1,11 @@
+.element {
+    min-height: 400px;
+    background: transparent;
+
+    .element-box {
+        background: rgba(0, 0, 0, 0.6);
+        text-align: center;
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+    }
+}
