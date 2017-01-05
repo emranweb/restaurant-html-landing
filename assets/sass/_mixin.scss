@@ -7,3 +7,10 @@
   font-family: $text;
   text-transform: uppercase;
 }
+
+@mixin stext {
+  font-family: $text;
+  font-size: 16px;
+  color: $w;
+  line-height: 1.5;
+}

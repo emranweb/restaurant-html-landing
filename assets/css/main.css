@@ -100,6 +100,23 @@ header {
     text-align: center;
     margin-top: 6rem;
     margin-bottom: 5rem; }
+    .element .element-box ul {
+      margin-bottom: 2rem; }
+      .element .element-box ul li {
+        display: inline-block;
+        margin: 0rem 1rem; }
+    .element .element-box h3 {
+      font-size: 36px;
+      font-family: "Yeseva One", cursive;
+      color: white;
+      line-height: 1.2;
+      margin: 4rem 0rem 2rem 0rem; }
+    .element .element-box p {
+      margin: 2rem 0rem 5rem 0rem;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      color: white;
+      line-height: 1.5; }
 
 * {
   margin: 0;
