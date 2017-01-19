@@ -14,3 +14,20 @@
   color: $w;
   line-height: 1.5;
 }
+
+@mixin menu_head{
+  font-size: 36px;
+  font-family:$heading;
+  color: rgb(204, 153, 0);
+  line-height: 0.667;
+  text-align: center;
+}
+
+
+@mixin menu_p{
+  font-size: 21px;
+  font-family: $heading;
+  color: rgb(200, 159, 45);
+  line-height: 1.143;
+  text-align: justifyAll;
+}

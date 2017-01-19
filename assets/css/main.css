@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Yeseva+One");
 @import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700");
 @import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  margin: 0;
+  padding: 0; }
+
 header {
   background-image: url("../image/header-bg.jpg");
   background-size: cover; }
@@ -100,11 +104,8 @@ header {
     text-align: center;
     margin-top: 6rem;
     margin-bottom: 5rem; }
-    .element .element-box ul {
-      margin-bottom: 2rem; }
-      .element .element-box ul li {
-        display: inline-block;
-        margin: 0rem 1rem; }
+    .element .element-box .element-img {
+      text-align: center; }
     .element .element-box h3 {
       font-size: 36px;
       font-family: "Yeseva One", cursive;
@@ -118,6 +119,73 @@ header {
       color: white;
       line-height: 1.5; }
 
-* {
-  margin: 0;
-  padding: 0; }
+.menu_area {
+  background-image: url(../image/menu-bg.png);
+  background-size: cover;
+  padding: 100px 0px;
+  text-align: center; }
+  .menu_area h3 {
+    font-size: 36px;
+    font-family: "Yeseva One", cursive;
+    color: #cc9900;
+    line-height: 0.667;
+    text-align: center;
+    padding-bottom: 1rem; }
+  .menu_area img {
+    padding-bottom: 1rem; }
+  .menu_area hr {
+    clear: both; }
+  .menu_area p {
+    text-align: left;
+    font-family: "Lato", sans-serif; }
+  .menu_area h5 {
+    font-size: 21px;
+    font-family: "Yeseva One", cursive;
+    color: #c89f2d;
+    line-height: 1.143;
+    text-align: justifyAll; }
+  .menu_area span {
+    font-family: "Yeseva One", cursive;
+    color: #cc9900; }
+
+.single_menu_item {
+  padding: .3rem 0rem; }
+
+.menu_item_left_top {
+  margin-bottom: 3rem; }
+
+.menu_item_right_top {
+  margin-bottom: 2rem; }
+
+.testimonial {
+  background-image: url(../image/testimonial-bg.jpg);
+  background-size: cover;
+  padding: 5rem;
+  background-attachment: fixed; }
+
+.testimonial_inner_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem; }
+  .testimonial_inner_area .testimonial_header {
+    padding-bottom: 2rem; }
+    .testimonial_inner_area .testimonial_header h3 {
+      font-family: "Yeseva One", cursive;
+      margin-bottom: 2rem; }
+  .testimonial_inner_area .owl-item p {
+    font-family: "Lato", sans-serif;
+    line-height: 30px; }
+  .testimonial_inner_area .owl-item p:before {
+    content: "\f10d";
+    font-family: fontawesome;
+    color: #9a9d9b;
+    font-weight: 400;
+    font-size: 2rem; }
+  .testimonial_inner_area .owl-item span {
+    text-align: center;
+    display: block;
+    font-weight: 400; }
