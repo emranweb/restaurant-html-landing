@@ -1,25 +1,31 @@
 .element {
-    min-height: 400px;
     background: transparent;
+    padding: 100px 0;
 
     .element-box {
         background: rgba(0, 0, 0, 0.6);
         text-align: center;
-        margin-top: 6rem;
-        margin-bottom: 5rem;
-        .element-img{
-          text-align: center;
+
+        .element-img {
+            text-align: center;
+
+            img {
+                width: 25%;
+                padding: 1rem 1rem 2rem 0;
+            }
         }
-        h3{
-        font-size: 36px;
-        font-family: $heading;
-        color: rgb(255, 255, 255);
-        line-height: 1.2;
-        margin: 4rem 0rem 2rem 0rem;
+
+        h3 {
+            font-size: 36px;
+            font-family: $heading;
+            color: rgb(255, 255, 255);
+            line-height: 1.2;
+            padding: 2rem 0 1rem;
         }
-        p{
-          margin: 2rem 0rem 5rem 0rem;
-          @include stext;
+
+        p {
+            @include stext;
+            padding: 2rem 0;
         }
     }
 }

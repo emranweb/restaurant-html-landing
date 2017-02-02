@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emranweb/resturant"
+    "url": "git+https://github.com/emranweb/resturant.git"
   },
   "bugs": {
     "url": "https://github.com/emranweb/resturant/issues"

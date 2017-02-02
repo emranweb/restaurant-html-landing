@@ -81,7 +81,7 @@ header {
     background: rgba(255, 255, 255, 0.4); }
 
 .about_us {
-  margin-top: 5rem; }
+  margin: 100px 0; }
   .about_us .left {
     text-align: center; }
     .about_us .left h3 {
@@ -97,27 +97,28 @@ header {
       line-height: 1.5; }
 
 .element {
-  min-height: 400px;
-  background: transparent; }
+  background: transparent;
+  padding: 100px 0; }
   .element .element-box {
     background: rgba(0, 0, 0, 0.6);
-    text-align: center;
-    margin-top: 6rem;
-    margin-bottom: 5rem; }
+    text-align: center; }
     .element .element-box .element-img {
       text-align: center; }
+      .element .element-box .element-img img {
+        width: 25%;
+        padding: 1rem 1rem 2rem 0; }
     .element .element-box h3 {
       font-size: 36px;
       font-family: "Yeseva One", cursive;
       color: white;
       line-height: 1.2;
-      margin: 4rem 0rem 2rem 0rem; }
+      padding: 2rem 0 1rem; }
     .element .element-box p {
-      margin: 2rem 0rem 5rem 0rem;
       font-family: "Lato", sans-serif;
       font-size: 16px;
       color: white;
-      line-height: 1.5; }
+      line-height: 1.5;
+      padding: 2rem 0; }
 
 .menu_area {
   background-image: url(../image/menu-bg.png);
@@ -160,7 +161,7 @@ header {
 .testimonial {
   background-image: url(../image/testimonial-bg.jpg);
   background-size: cover;
-  padding: 5rem;
+  padding: 100px 0px;
   background-attachment: fixed; }
 
 .testimonial_inner_area {
@@ -170,7 +171,7 @@ header {
   align-content: center;
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 3rem; }
+  padding: 3rem 1rem; }
   .testimonial_inner_area .testimonial_header {
     padding-bottom: 2rem; }
     .testimonial_inner_area .testimonial_header h3 {
@@ -189,3 +190,77 @@ header {
     text-align: center;
     display: block;
     font-weight: 400; }
+
+.booking_area {
+  padding: 100px 0px; }
+  .booking_area .booking_content .booking_content_header {
+    text-align: center; }
+    .booking_area .booking_content .booking_content_header h4 {
+      font-weight: 400;
+      font-family: "Yeseva One", cursive;
+      font-size: 2rem;
+      color: #cc9900;
+      padding-bottom: 1rem; }
+    .booking_area .booking_content .booking_content_header p {
+      text-align: center;
+      padding: 1rem 2rem; }
+  .booking_area .booking_content .btn {
+    width: 188px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 3rem;
+    border-radius: 0px;
+    background-color: #cc9900;
+    border: none;
+    outline: none; }
+
+.form-group input {
+  border-width: 2px 0px;
+  border-radius: 0px;
+  outline: none;
+  border-color: #cc9900; }
+  .form-group input:focus {
+    border-color: #cc9900; }
+  .form-group input::-webkit-input-placeholder {
+    color: #black;
+    font-style: italic;
+    font-weight: normal; }
+
+.form-group label {
+  color: #cc9900;
+  padding: 1rem 0rem .5rem 0rem; }
+
+footer {
+  background-color: #191919;
+  text-align: center;
+  color: #dedede; }
+  footer .about h4 {
+    padding: 2rem 0 1rem; }
+  footer .about p {
+    padding: 1rem; }
+  footer .opening h4 {
+    padding: 2rem 0 1rem; }
+  footer .opening .divider {
+    padding-bottom: 1rem; }
+  footer .opening p span {
+    font-weight: bold; }
+  footer .opening ul {
+    list-style: none;
+    padding: 1rem 0rem;
+    cursor: pointer; }
+    footer .opening ul li {
+      display: inline-block;
+      font-size: 1.2rem;
+      padding: 0 10px; }
+  footer .location h4 {
+    padding: 2rem 0 1rem; }
+  footer .location .divider {
+    padding-bottom: 1rem; }
+  footer .location ul {
+    list-style: none;
+    padding: 1rem 0rem; }
+    footer .location ul li {
+      display: inline-block;
+      font-size: 1.2rem;
+      padding: 0 10px;
+      cursor: pointer; }
