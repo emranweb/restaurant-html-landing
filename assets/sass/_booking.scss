@@ -1,32 +1,46 @@
-.booking_area{
-  padding: 100px 0px;
+
+ .booking_area{
+   padding: 100px 0px;
   .booking_content{
-    .booking_content_header{
-      text-align: center;
-      h4{
-        font-weight: 400;
+     .booking_content_header{
+       text-align: center;
+       h4{
+         font-weight: 400;
         font-family: $heading;
-        font-size: 2rem;
-        color: $primary;
-        padding-bottom: 1rem;
-      }
-      p{
-        text-align: center;
-        padding: 1rem 2rem;
-      }
-    }
-    .btn{
-      width: 188px;
-      margin-left: 50%;
-      transform: translateX(-50%);
-      margin-top: 3rem;
-      border-radius: 0px;
-      background-color: $primary;
-      border: none;
-      outline: none;
-    }
-  }
-}
+         font-size: 1.5rem;
+         color: $primary;
+         padding-bottom: 1rem;
+       }
+       p{
+         text-align: center;
+         padding: 1rem 1.5rem;
+       }
+     }
+
+   }
+   .btn{
+       width: 180px;
+      position: relative;
+      top:50%;
+       left:50%;
+       transform: translateX(-50%);
+       background-color: rgba(204, 153, 0, 0.82);
+       border:none;
+       outline: none;
+       border-radius: 0px;
+       margin-top: 3rem;
+       transition: .2s ease-in-out;
+       &:hover{
+         background-color: $primary;
+       }
+       &:focus{
+         background-color:$primary;
+         border:none;
+         outline: none;
+       }
+
+     }
+ }
 
 .form-group{
   input{

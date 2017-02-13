@@ -75,12 +75,22 @@ header {
 
     .btn-primary:first-child {
         @include bt;
+        transition: .5s ease-in-out;
         background: rgba(0, 0, 0, 0.4);
-        margin-right: 10px;
+        //margin-right: 10px;
+        &:hover{
+          background-color: #000;
+        }
     }
 
     .btn-primary:last-child {
         @include bt;
+        transition: .5s ease-in-out;
         background: rgba(255, 255, 255, 0.4);
+        &:hover{
+          background-color: #fff;
+          color: #000;
+          font-weight: bold;
+        }
     }
 }

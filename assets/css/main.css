@@ -68,8 +68,10 @@ header {
     outline: none;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    background: rgba(0, 0, 0, 0.4);
-    margin-right: 10px; }
+    transition: .5s ease-in-out;
+    background: rgba(0, 0, 0, 0.4); }
+    .jumbotron .btn-primary:first-child:hover {
+      background-color: #000; }
   .jumbotron .btn-primary:last-child {
     background: none;
     border-radius: 0px;
@@ -78,7 +80,12 @@ header {
     outline: none;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
+    transition: .5s ease-in-out;
     background: rgba(255, 255, 255, 0.4); }
+    .jumbotron .btn-primary:last-child:hover {
+      background-color: #fff;
+      color: #000;
+      font-weight: bold; }
 
 .about_us {
   margin: 100px 0; }
@@ -198,21 +205,30 @@ header {
     .booking_area .booking_content .booking_content_header h4 {
       font-weight: 400;
       font-family: "Yeseva One", cursive;
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #cc9900;
       padding-bottom: 1rem; }
     .booking_area .booking_content .booking_content_header p {
       text-align: center;
-      padding: 1rem 2rem; }
-  .booking_area .booking_content .btn {
-    width: 188px;
-    margin-left: 50%;
+      padding: 1rem 1.5rem; }
+  .booking_area .btn {
+    width: 180px;
+    position: relative;
+    top: 50%;
+    left: 50%;
     transform: translateX(-50%);
-    margin-top: 3rem;
-    border-radius: 0px;
-    background-color: #cc9900;
+    background-color: rgba(204, 153, 0, 0.82);
     border: none;
-    outline: none; }
+    outline: none;
+    border-radius: 0px;
+    margin-top: 3rem;
+    transition: .2s ease-in-out; }
+    .booking_area .btn:hover {
+      background-color: #cc9900; }
+    .booking_area .btn:focus {
+      background-color: #cc9900;
+      border: none;
+      outline: none; }
 
 .form-group input {
   border-width: 2px 0px;
@@ -251,7 +267,10 @@ footer {
     footer .opening ul li {
       display: inline-block;
       font-size: 1.2rem;
-      padding: 0 10px; }
+      padding: 0 10px;
+      transition: 2s ease-in-out; }
+      footer .opening ul li:hover i {
+        color: #cc9900; }
   footer .location h4 {
     padding: 2rem 0 1rem; }
   footer .location .divider {
@@ -263,4 +282,7 @@ footer {
       display: inline-block;
       font-size: 1.2rem;
       padding: 0 10px;
-      cursor: pointer; }
+      cursor: pointer;
+      transition: 2s ease-in-out; }
+      footer .location ul li:hover i {
+        color: #cc9900; }
