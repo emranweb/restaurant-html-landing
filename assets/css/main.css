@@ -38,6 +38,8 @@ header {
 .nav-item {
   transition: 0.2s ease;
   padding-top: 20px; }
+  .nav-item a {
+    cursor: pointer; }
   @media (min-width: 992px) {
     .nav-item {
       border-top: 1px solid rgba(255, 255, 255, 0); }

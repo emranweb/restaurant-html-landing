@@ -1,6 +1,5 @@
 $('.element').parallax();
 
-console.log("Kichu Nai, ");
 
 var owl = $('.owl-carousel');
 owl.owlCarousel({

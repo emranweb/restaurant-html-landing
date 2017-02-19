@@ -41,6 +41,9 @@ header {
 .nav-item {
     transition: 0.2s ease;
     padding-top: 20px;
+    a{
+      cursor: pointer;
+    }
     @media (min-width: 992px) {
         border-top: 1px solid transparentize(#fff, 1);
 
