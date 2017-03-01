@@ -1,44 +1,62 @@
-.menu_area{
-  background-image: url(../image/menu-bg.png);
-  background-size: cover;
-  padding: 100px 0px;
-  text-align: center;
-  h3{
-    @include menu_head;
-    padding-bottom: 1rem;
-  }
-  img{
-    padding-bottom: 1rem;
-  }
-  hr{
-    clear: both;
-  }
-  p{
-    text-align: left;
-    font-family: $text;
-  }
-  h5{
-    @include menu_p;
-  }
-  span{
-    font-family: $heading;
-    color:$primary;
-  }
+.menu_area {
+    background-image: url("../image/menu-bg.png");
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+
+    h3 {
+        @include menu_head;
+        padding-bottom: 1rem;
+    }
+
+    img {
+        padding-bottom: 1rem;
+    }
+
+    hr {
+        clear: both;
+    }
+
+    p {
+        text-align: left;
+        font-family: $text;
+    }
+
+    h5 {
+        @include menu_p;
+    }
+
+    span {
+        font-family: $heading;
+        color: $primary;
+    }
 }
 
-.single_menu_item{
-  padding: .3rem 0rem;
+.single_menu_item {
+    padding: 0.3rem 1rem;
+    position: relative;
 }
 
-
-.menu_item_left_top{
-  margin-bottom: 3rem;
+.menu_item_left_top {
+    margin-bottom: 3rem;
 }
 
-.menu_item_right_top{
-  margin-bottom: 2rem;
+.menu_item_right_top {
+    margin-bottom: 2rem;
 }
 
-.special{
-  border:1px solid $primary;
+.special {
+    border: 1px solid $primary;
+
+    &:after {
+        content: 'Special';
+        position: absolute;
+        font-family: $text;
+        color: #fff;
+        right: 0;
+        top: -23px;
+        background-color: #cc9900;
+        width: 70px;
+        height: 22px;
+    }
 }

@@ -1,16 +1,11 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Resturant</title>
-    <meta name="description" content="">
+    <meta name="description" content="A Resturant Based Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- css -->
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -18,62 +13,67 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <!--[if lt IE 9]>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
 </head>
 
 <body>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
     <!-- *********** Header***************** -->
     <header>
         <div class="container">
-            <div class="row header-top">
-                <div class="col-md-2 col-xs-4 logo">
-                    <img class="img-fluid" src="assets/image/resturant-logo.png" alt="Logo">
-                </div>
-                <div class="col-md-8 col-xs-8 offset-md-1">
-                    <nav class="navbar navbar-light">
-                        <button class="navbar-toggler hidden-lg-up float-xs-right float-md-right" type="button" data-toggle="collapse" data-target="#n"></button>
-                        <div class="collapse navbar-toggleable-md" id="n">
-                            <ul class="nav navbar-nav float-lg-right">
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Igredients</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Menu</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Reviews</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Reservations</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+            <div class="row">
+                <div class="header-top">
+                    <div class="col-md-2 col-xs-4">
+                        <figure class="logo">
+                            <img class="img-fluid" src="assets/image/resturant-logo.png" alt="Logo">
+                        </figure>
+                    </div>
+                    <div class="col-md-8 col-xs-8 offset-md-1">
+                        <nav class="navbar navbar-light">
+                            <button class="navbar-toggler hidden-lg-up float-xs-right float-md-right" type="button" data-toggle="collapse" data-target="#n"></button>
+                            <div class="collapse navbar-toggleable-md" id="n">
+                                <ul class="nav navbar-nav float-lg-right">
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Igredients</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Menu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Reviews</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Reservations</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
                                      <i class="fa fa-youtube" aria-hidden="true"></i>
                                      <i class="fa fa-facebook" aria-hidden="true"></i>
                                     </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
+                <!--headn Header Top-->
             </div>
             <div class="row header-bottom">
-                <div class="col-md-12 jumbotron wow fadeInUp">
-                    <h1>the right ingredients<br />
-                        for the right food</h1>
-                    <img src="assets/image/divider.png" alt="Divider">
-                    <div>
-                        <div class="btn btn-primary">Book Table</div>
-                        <div class="btn btn-primary">See the Menu</div>
+                <div class="col-md-12">
+                    <div class="jumbotron wow fadeInUp">
+                        <h1>the right ingredients<br /> for the right food</h1>
+                        <img src="assets/image/divider.png" alt="Divider">
+                        <div class="buttongroup">
+                            <button class="btn btn-primary" type="button" name="button">Sign Up</button>
+                            <button class="btn btn-primary" type="button" name="button">Book Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -83,15 +83,19 @@
     <section class="about_us">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 left wow fadeInUp">
-                    <h3>Just the right food</h3>
-                    <img class="img-fluid" src="assets/image/dividertwo.png" alt="Divider">
-                    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to resist!
-                        Stop in today and check us out!</p>
-                    <img src="assets/image/cook.png" alt="Cook">
+                <div class="col-md-6">
+                    <div class="left wow fadeInUp">
+                        <h3>Just the right food</h3>
+                        <img class="img-fluid" src="assets/image/dividertwo.png" alt="Divider">
+                        <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes, muffins, and gourmet coffees make us hard to
+                            resist! Stop in today and check us out!</p>
+                        <img src="assets/image/cook.png" alt="Cook">
+                    </div>
                 </div>
-                <div class="col-md-6 right wow fadeInUp">
-                    <img class="img-fluid" src="assets/image/dish.png" alt="Dish">
+                <div class="col-md-6">
+                    <div class="right wow fadeInUp">
+                        <img class="img-fluid" src="assets/image/dish.png" alt="Dish">
+                    </div>
                 </div>
             </div>
         </div>
@@ -317,7 +321,7 @@
                         </form>
                     </div>
                 </div>
-                <button class="btn btn-primary align-middle">Submit</button>
+                <button class="btn btn-primary align-middle" type="submit">Submit</button>
             </div>
         </div>
     </section>
@@ -325,50 +329,54 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 about wow fadeInUp">
-                    <h4>About Us</h4>
-                    <img src="assets/image/footer-divider.png" alt="" class="divider img-fluid">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis voluptatibus ad repellat recusandae similique sed at beatae pariatur voluptatem suscipit. Magnam reiciendis dolorum odit saepe veritatis adipisci, modi nisi inventore!</p>
+                <div class="col-md-4">
+                    <div class="about wow fadeInup">
+                        <h4>About Us</h4>
+                        <img src="assets/image/footer-divider.png" alt="" class="divider img-fluid">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis voluptatibus ad repellat recusandae similique sed at beatae pariatur voluptatem suscipit. Magnam reiciendis dolorum odit saepe veritatis adipisci, modi nisi inventore!</p>
+                    </div>
+
                 </div>
-                <div class="col-md-4 opening wow fadeInUp">
-                    <h4>Opening Hour</h4>
-                    <img src="assets/image/footer-divider.png" alt="" class="divider img-fluid">
-                    <p> <span>Mon-Thu: </span>7:00am-8:00pm </p>
-                    <p><span>Fri-Sun: </span>7:00am-10:00pm </p>
-                    <ul>
-                        <li><i class="fa fa-credit-card-alt" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-credit-card" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-money" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-cc-paypal" aria-hidden="true"></i></li>
-                    </ul>
+                <div class="col-md-4 ">
+                    <div class="opening wow fadeInup">
+                        <h4>Opening Hour</h4>
+                        <img src="assets/image/footer-divider.png" alt="" class="divider img-fluid">
+                        <p> <span>Mon-Thu: </span>7:00am-8:00pm </p>
+                        <p><span>Fri-Sun: </span>7:00am-10:00pm </p>
+                        <ul>
+                            <li><i class="fa fa-credit-card-alt" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-credit-card" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-money" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-cc-paypal" aria-hidden="true"></i></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-md-4 location wow fadeInUp">
-                    <h4>Our Location</h4>
-                    <img src="assets/image/footer-divider.png" alt="" class="divider img-fluid">
-                    <p>Lorem ipsum dolor sit amet,quo.</p>
-                    <p>Lorem ipsum dolor sit amet,quo.</p>
-                    <ul>
-                        <li><i class="fa fa-facebook-official"></i></li>
-                        <li><i class="fa fa-youtube"></i></li>
-                        <li><i class="fa fa-google-plus"></i></li>
-                        <li><i class="fa fa-github"></i></li>
-                    </ul>
+                <div class="col-md-4">
+                    <div class="location wow fadeInUp">
+                        <h4>Our Location</h4>
+                        <img src="assets/image/footer-divider.png" alt="" class="divider img-fluid">
+                        <p>Lorem ipsum dolor sit amet,quo.</p>
+                        <p>Lorem ipsum dolor sit amet,quo.</p>
+                        <ul>
+                            <li><i class="fa fa-facebook-official"></i></li>
+                            <li><i class="fa fa-youtube"></i></li>
+                            <li><i class="fa fa-google-plus"></i></li>
+                            <li><i class="fa fa-github"></i></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="row">
-              <div class="col-md-12">
-                 <div class="copy">
-                   <p>Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
-                 </div>
-              </div>
+                <div class="col-md-12">
+                    <div class="copy">
+                        <p>Copyright (c) 2016 Copyright Holder All Rights Reserved.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="assets/js/jquery-3.1.1.min.js"><\/script>')
-    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.min.js"></script>
     <script src="assets/js/modernizr.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>

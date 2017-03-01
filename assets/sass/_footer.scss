@@ -30,7 +30,7 @@ footer {
 
         ul {
             list-style: none;
-            padding: 1rem 0rem;
+            padding: 1rem 0;
             cursor: pointer;
 
             li {
@@ -38,10 +38,11 @@ footer {
                 font-size: 1.2rem;
                 padding: 0 10px;
                 transition: 2s ease-in-out;
-                &:hover{
-                  i{
-                    color: $primary;
-                  }
+
+                &:hover {
+                    i {
+                        color: $primary;
+                    }
                 }
             }
         }
@@ -58,7 +59,7 @@ footer {
 
         ul {
             list-style: none;
-            padding: 1rem 0rem;
+            padding: 1rem 0;
 
             li {
                 display: inline-block;
@@ -66,10 +67,11 @@ footer {
                 padding: 0 10px;
                 cursor: pointer;
                 transition: 2s ease-in-out;
-                &:hover{
-                  i{
-                    color: $primary;
-                  }
+
+                &:hover {
+                    i {
+                        color: $primary;
+                    }
                 }
             }
         }

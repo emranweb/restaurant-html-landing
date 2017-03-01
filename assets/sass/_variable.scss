@@ -1,19 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Yeseva+One');
-@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
+@import url( 'https://fonts.googleapis.com/css?family=Yeseva+One');
+@import url( 'https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700');
+@import url( 'https://fonts.googleapis.com/css?family=Lato');
 //fonts
-$heading:'Yeseva One', cursive;
+$heading: 'Yeseva One', cursive;
 $subhead: 'Gentium Book Basic', serif;
-$text : 'Lato', sans-serif;
-
+$text: 'Lato', sans-serif;
 //color
 $primary: rgb(204, 153, 0);
 $textcolor: rgb(76, 76, 76);
 $secondary: #191919;
 $headColor: rgba(255, 255, 255, 0.922);
-$w:rgb(255, 255, 255);
-$b:#000;
-
+$w: rgb(255, 255, 255);
+$b: #000;
 $enable-shadows: true;
 $enable-flex: true;

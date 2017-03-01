@@ -54,7 +54,6 @@ header {
   text-align: center; }
   .jumbotron h1 {
     font-family: "Yeseva One", cursive;
-    font-size: 2em;
     color: rgba(255, 255, 255, 0.922);
     line-height: 1.2; }
     @media (min-width: 992px) {
@@ -64,25 +63,28 @@ header {
     margin: 3rem 0; }
   .jumbotron .btn-primary:first-child {
     background: none;
-    border-radius: 0px;
+    border-radius: 0;
     border: none;
     width: 9rem;
     outline: none;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     background: rgba(0, 0, 0, 0.4); }
     .jumbotron .btn-primary:first-child:hover {
       background-color: #000; }
+    @media only screen and (max-width: 352px) {
+      .jumbotron .btn-primary:first-child {
+        margin-bottom: 1rem; } }
   .jumbotron .btn-primary:last-child {
     background: none;
-    border-radius: 0px;
+    border-radius: 0;
     border: none;
     width: 9rem;
     outline: none;
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    transition: .5s ease-in-out;
+    transition: 0.5s ease-in-out;
     background: rgba(255, 255, 255, 0.4); }
     .jumbotron .btn-primary:last-child:hover {
       background-color: #fff;
@@ -90,8 +92,8 @@ header {
       font-weight: bold; }
 
 .about_us {
-  padding: 100px 0px;
-  background-image: url(../image/menu-bg.png);
+  padding: 100px 0;
+  background-image: url("../image/menu-bg.png");
   background-size: cover; }
   .about_us .left {
     text-align: center; }
@@ -132,9 +134,9 @@ header {
       padding: 2rem 0; }
 
 .menu_area {
-  background-image: url(../image/menu-bg.png);
+  background-image: url("../image/menu-bg.png");
   background-size: cover;
-  padding: 100px 0px;
+  padding: 100px 0;
   text-align: center; }
   .menu_area h3 {
     font-size: 36px;
@@ -161,7 +163,8 @@ header {
     color: #cc9900; }
 
 .single_menu_item {
-  padding: .3rem 0rem; }
+  padding: 0.3rem 1rem;
+  position: relative; }
 
 .menu_item_left_top {
   margin-bottom: 3rem; }
@@ -171,6 +174,16 @@ header {
 
 .special {
   border: 1px solid #cc9900; }
+  .special:after {
+    content: 'Special';
+    position: absolute;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    right: 0;
+    top: -23px;
+    background-color: #cc9900;
+    width: 70px;
+    height: 22px; }
 
 .testimonial {
   background-image: url(../image/testimonial-bg.jpg);
@@ -197,7 +210,7 @@ header {
   .testimonial_inner_area .owl-item p:before {
     content: "\f10d";
     font-family: fontawesome;
-    color: #9a9d9b;
+    color: #cc9900;
     font-weight: 400;
     font-size: 2rem; }
   .testimonial_inner_area .owl-item span {
@@ -206,8 +219,8 @@ header {
     font-weight: 400; }
 
 .booking_area {
-  padding: 100px 0px;
-  background-image: url(../image/menu-bg.png);
+  padding: 100px 0;
+  background-image: url("../image/menu-bg.png");
   background-size: cover; }
   .booking_area .booking_content .booking_content_header {
     text-align: center; }
@@ -229,9 +242,9 @@ header {
     background-color: rgba(204, 153, 0, 0.82);
     border: none;
     outline: none;
-    border-radius: 0px;
+    border-radius: 0;
     margin-top: 3rem;
-    transition: .2s ease-in-out; }
+    transition: 0.2s ease-in-out; }
     .booking_area .btn:hover {
       background-color: #cc9900; }
     .booking_area .btn:focus {
@@ -240,8 +253,8 @@ header {
       outline: none; }
 
 .form-group input {
-  border-width: 2px 0px;
-  border-radius: 0px;
+  border-width: 2px 0;
+  border-radius: 0;
   outline: none;
   border-color: #cc9900; }
   .form-group input:focus {
@@ -253,7 +266,7 @@ header {
 
 .form-group label {
   color: #cc9900;
-  padding: 1rem 0rem .5rem 0rem; }
+  padding: 1rem 0 0.5rem; }
 
 @media only screen and (max-width: 768px) {
   .booking_image {
@@ -278,7 +291,7 @@ footer {
     font-weight: bold; }
   footer .opening ul {
     list-style: none;
-    padding: 1rem 0rem;
+    padding: 1rem 0;
     cursor: pointer; }
     footer .opening ul li {
       display: inline-block;
@@ -293,7 +306,7 @@ footer {
     padding-bottom: 1rem; }
   footer .location ul {
     list-style: none;
-    padding: 1rem 0rem; }
+    padding: 1rem 0; }
     footer .location ul li {
       display: inline-block;
       font-size: 1.2rem;

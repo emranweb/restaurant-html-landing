@@ -11,7 +11,6 @@ owl.owlCarousel({
 });
 
 
-
 var wow = new WOW(
   {
     boxClass:     'wow',      // animated element css class (default is wow)
