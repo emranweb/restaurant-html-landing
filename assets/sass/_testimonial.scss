@@ -18,6 +18,9 @@
     h3{
       font-family: $heading;
       margin-bottom: 2rem;
+      span{
+        color: $primary;
+      }
     }
   }
   .owl-item{

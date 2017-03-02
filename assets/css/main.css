@@ -28,7 +28,10 @@ header {
   line-height: 1.2; }
   .nav-link i {
     color: #cc9900;
-    padding: 0 5px; }
+    padding: 0 5px;
+    transition: all .5s ease-in-out; }
+    .nav-link i:hover {
+      transform: scale(1.5, 1.5); }
   .nav-link:hover {
     color: #cc9900; }
 
@@ -39,6 +42,9 @@ header {
   transition: 0.2s ease;
   padding-top: 20px;
   position: relative; }
+  @media (max-width: 992px) {
+    .nav-item {
+      position: inherit; } }
   .nav-item a {
     cursor: pointer; }
   @media (min-width: 992px) {
@@ -169,7 +175,7 @@ header {
     color: #cc9900; }
 
 .single_menu_item {
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 0rem;
   position: relative; }
 
 .menu_item_left_top {
@@ -179,7 +185,8 @@ header {
   margin-bottom: 2rem; }
 
 .special {
-  border: 1px solid #cc9900; }
+  border: 1px solid #cc9900;
+  padding: 0.3rem 1rem; }
   .special:after {
     content: 'Special';
     position: absolute;
@@ -210,6 +217,8 @@ header {
     .testimonial_inner_area .testimonial_header h3 {
       font-family: "Yeseva One", cursive;
       margin-bottom: 2rem; }
+      .testimonial_inner_area .testimonial_header h3 span {
+        color: #cc9900; }
   .testimonial_inner_area .owl-item p {
     font-family: "Lato", sans-serif;
     line-height: 30px; }
@@ -262,7 +271,8 @@ header {
   border-width: 2px 0;
   border-radius: 0;
   outline: none;
-  border-color: #cc9900; }
+  border-color: rgba(240, 173, 78, 0.3);
+  transition: all .5s ease-in-out; }
   .form-group input:focus {
     border-color: #cc9900; }
   .form-group input::-webkit-input-placeholder {
@@ -286,15 +296,18 @@ footer {
   text-align: center;
   color: #dedede; }
   footer .about h4 {
-    padding: 2rem 0 1rem; }
+    padding: 2rem 0 1rem;
+    font-family: "Yeseva One", cursive; }
   footer .about p {
     padding: 1rem; }
   footer .opening h4 {
-    padding: 2rem 0 1rem; }
+    padding: 2rem 0 1rem;
+    font-family: "Yeseva One", cursive; }
   footer .opening .divider {
     padding-bottom: 1rem; }
   footer .opening p span {
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: "Lato", sans-serif; }
   footer .opening ul {
     list-style: none;
     padding: 1rem 0;
@@ -307,7 +320,8 @@ footer {
       footer .opening ul li:hover i {
         color: #cc9900; }
   footer .location h4 {
-    padding: 2rem 0 1rem; }
+    padding: 2rem 0 1rem;
+    font-family: "Yeseva One", cursive; }
   footer .location .divider {
     padding-bottom: 1rem; }
   footer .location ul {

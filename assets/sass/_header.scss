@@ -24,9 +24,15 @@ header {
     font-weight: bold;
     line-height: 1.2;
 
+
     i {
         color: $primary;
         padding: 0 5px;
+        transition: all .5s ease-in-out;
+        &:hover{
+        transform: scale(1.5, 1.5);
+        }
+
     }
 
     &:hover {
@@ -42,10 +48,14 @@ header {
     transition: 0.2s ease;
     padding-top: 20px;
     position: relative;
+    @media (max-width: 992px) {
+      position: inherit;
+    }
 
 
     a {
         cursor: pointer;
+
     }
     @media (min-width: 992px) {
         &:before {

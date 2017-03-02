@@ -33,7 +33,7 @@
 }
 
 .single_menu_item {
-    padding: 0.3rem 1rem;
+    padding: 0.5rem 0rem;
     position: relative;
 }
 
@@ -47,6 +47,7 @@
 
 .special {
     border: 1px solid $primary;
+    padding: 0.3rem 1rem;
 
     &:after {
         content: 'Special';
